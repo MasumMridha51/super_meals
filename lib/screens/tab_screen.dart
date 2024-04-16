@@ -80,6 +80,7 @@ class _TabScreenState extends State<TabScreen> {
   Widget build(BuildContext context) {
     Widget activeScreen = CategoriesScreen(
       onToggleFavourite: _toggleMealFavouriteStatus,
+      selectedFilters: _selectedFilters,
     );
     var activeTitle = 'Categories';
 
